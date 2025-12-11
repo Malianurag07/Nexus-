@@ -3,12 +3,17 @@
 
 Nexus OS is a robust, multi-tenant internal tool designed for organizations to manage employees, secure company secrets, and streamline operations. Built with a mobile-first approach, it works seamlessly as a Web Dashboard and a native Android App.
 
-[![Download for Android]([(https://drive.google.com/file/d/1-_TCn2621hPPy4L-xBwRX1raR0T59cXY/view?usp=sharing)])
+[![Download for Android](https://img.shields.io/badge/Download-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://drive.google.com/file/d/1-_TCn2621hPPy4L-xBwRX1raR0T59cXY/view?usp=drive_link)
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
+<div align="center">
+  <img src="Screenshot%202025-12-11%20211837.png" alt="Nexus OS Application Screenshot" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+</div>
+
+---
 
 ## 🚀 Key Features
 
