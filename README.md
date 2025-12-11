@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ Nexus OS
+> **Secure Enterprise Workspace & Employee Management System**
 
-## Getting Started
+Nexus OS is a robust, multi-tenant internal tool designed for organizations to manage employees, secure company secrets, and streamline operations. Built with a mobile-first approach, it works seamlessly as a Web Dashboard and a native Android App.
 
-First, run the development server:
+[![Download for Android](https://img.shields.io/badge/Download-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)]([PASTE_YOUR_LINK_HERE](https://drive.google.com/file/d/1-_TCn2621hPPy4L-xBwRX1raR0T59cXY/view?usp=sharing))
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
+| Login Screen | Admin Dashboard | Secure Vault |
+|:---:|:---:|:---:|
+| ![Login](https://placehold.co/200x400?text=Login+Screen) | ![Dashboard](https://placehold.co/200x400?text=Admin+Panel) | ![Vault](https://placehold.co/200x400?text=Secure+Vault) |
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔐 Security & Authentication
+- **Multi-Tenant Architecture:** Secure login using unique **Company Codes** (e.g., `TES-942`) combined with Employee IDs.
+- **Role-Based Access Control (RBAC):** Distinct dashboards and permissions for **Admins** vs. **Employees**.
+- **Hybrid Password Recovery:**
+  - **Admins:** Use a secret **Master Recovery Key** to reset their own access.
+  - **Employees:** Send a "Reset Request" that admins must verify and approve inside the dashboard.
 
-## Learn More
+### 👥 Team Management
+- **Live Employee Directory:** Admins can view, add, and remove team members in real-time.
+- **One-Click Onboarding:** Automatically generates credentials and Company Codes for new hires.
+- **Admin Controls:** Reset employee passwords instantly from the settings panel.
 
-To learn more about Next.js, take a look at the following resources:
+### 💎 The Vault
+- **Encrypted Storage:** A secure space to store sensitive company assets (API Keys, WiFi passwords, etc.).
+- **Row Level Security (RLS):** Ensures data is strictly isolated between different companies.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Database:** [Supabase](https://supabase.com/) (PostgreSQL + Auth)
+- **Styling:** Tailwind CSS + Shadcn/ui
+- **Mobile Build:** [Capacitor](https://capacitorjs.com/) (Converted to Android APK)
+- **State Management:** React Hooks & LocalStorage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💻 Getting Started (For Developers)
+
+To run this project locally on your machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/nexus-os.git](https://github.com/YOUR_USERNAME/nexus-os.git)
+   cd nexus-os
